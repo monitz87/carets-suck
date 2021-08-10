@@ -1,0 +1,17 @@
+{
+  "name": "carets-suck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "reproduce": "yarn clear && yarn && node src/index.js",
+    "clear": "rimraf yarn.lock && rimraf node_modules"
+  },
+  "devDependencies": {
+    "rimraf": "latest"
+  },
+  "dependencies": {
+    "@polkadot/api": "5.1.1",
+    "@polkadot/util": "7.0.2"
+  }
+}
